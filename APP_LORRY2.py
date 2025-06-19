@@ -64,7 +64,7 @@ if uploaded_file:
 
     # Select required columns
     flagged_df = flagged_df[[
-        'RC ID', 'SAC ID', 'Driver Name', 'Lorry Number',
+        'RC ID', 'Lorry Number',
         'check_in_dt', 'check_out_dt', 'BTM', 'Accepted Weight',
         'flag_check_in_gap', 'flag_duration_out_of_range',
         'flag_btm_variance', 'flag_repeated_weight'
